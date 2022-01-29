@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* common-style */
+
+.primary-btn {
+    padding: 8px 15px;
+    color: white;
+    background-image: linear-gradient(#f60b0b, #dc2f02);
+    border-radius: 3px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.primary-btn:hover {
+    color: rgb(15, 247, 34);
+    background-image: linear-gradient(#f60b0b, #dc2f02);
+}
+
+.explore-btn {
+    padding: 8px 15px;
+    color: white;
+    background-image: linear-gradient(#f60b0b, #dc2f02);
+    border-radius: 3px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.explore-btn:hover {
+    color: white;
+    background-image: linear-gradient(#f60b0b, #dc2f02);
+}
+
+.secondary-btn {
+    color: #e85d04;
+    background-color: #e85b044b;
+    padding: 8px 45px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.secondary-btn:hover {
+    color: #fff;
+    background-color: #f83909;
+}
+
+.p-color {
+    color: #999393;
+}
+
+.check-fill {
+    color: #e85b044b;
+}
+
+.package-details {
+    transition: .5s;
+ }
+
+.package-details:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #f60b0b;
+}
+
+.premium {
+    position: relative;
+    color: rgba(255, 255, 255, 0.479);
+    background-color: #e85b044b;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 35px 20px -20px;
+}
+
+.premium-color {
+    color: #fff;
+}
+
+.quality {
+    position: absolute;
+    border-radius: 5px;
+    padding: 8px;
+    width: 102px;
+    background-color: #e85d04;
+    color: #fff;
+    top: -22px;
+    right: 15px;
+    font-weight: bold;
+}
+
+
+/* contact-section-style */
+
+.contact-cell {
+    border: 2px solid #e85d04;
+    padding-top: 20px;
+}
+
+.contact-cell i {
+    font-size: 40px;
+    color: #e80404;
+}
+
+
+/* footer-section-style */
+
+footer {
+    background-color: #0B0D17;
+}
+
+.icon a {
+    padding-right: 15px;
+    font-size: 30px;
+    color: rgb(238, 241, 12);
+    transition: .5s;
+}
+
+.icon a:hover {
+    color: #e80404;
+}
+
+footer h2 {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.hr-line {
+    border-bottom: 2px solid gray;
+}
+
+.footer-button a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+/* media-query for mobile */
+
+@media only screen and (max-width: 576px) {
+    .primary-btn {
+        padding: 2px 10px;
+        font-size: 10px;
+    }
+    .carousel-item h1 {
+        font-size: 15px;
+    }
+    .carousel-item p {
+        font-size: 6px;
+        margin: 0;
+    }
+}
