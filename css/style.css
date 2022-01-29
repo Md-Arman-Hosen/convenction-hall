@@ -57,6 +57,8 @@ body {
 
 .package-details {
     transition: .5s;
+    background-color: #2cf7086b;
+
  }
 
 .package-details:hover {
@@ -68,8 +70,7 @@ body {
 
 .premium {
     position: relative;
-    color: rgba(255, 255, 255, 0.479);
-    background-color: #e85b044b;
+    color: rgba(255, 255, 255, 0.712);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 35px 20px -20px;
 }
